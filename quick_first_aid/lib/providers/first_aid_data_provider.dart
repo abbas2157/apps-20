@@ -181,6 +181,103 @@ class FirstAidDataProvider extends ChangeNotifier {
           "Don't slap a choking person's back while they're upright",
         ],
       ),
+
+      //Control Bleeding
+      Procedure(
+        id: "bleeding_control",
+        title: "Control Bleeding",
+        category: "bleeding_wounds",
+        urgencyLevel: "urgent",
+        estimatedTime: "5-10 minutes",
+        seekHelp: "Call emergency services if bleeding is severe or doesn’t stop after 10 minutes of pressure",
+        overview: "Managing external bleeding to prevent blood loss and shock.",
+        steps: [
+          ProcedureStep(stepNumber: 1, heading: "Ensure safety", instruction: "Wear gloves if available to avoid contact with blood.", icon: "gloves_icon"),
+          ProcedureStep(stepNumber: 2, heading: "Expose the wound", instruction: "Remove or cut clothing around the wound to see the source of bleeding.", icon: "expose_icon"),
+          ProcedureStep(stepNumber: 3, heading: "Apply pressure", instruction: "Use a clean cloth or bandage to apply firm, steady pressure.", icon: "pressure_icon"),
+          ProcedureStep(stepNumber: 4, heading: "Elevate if possible", instruction: "If no fracture suspected, raise the bleeding limb above heart level.", icon: "elevate_icon"),
+          ProcedureStep(stepNumber: 5, heading: "Secure dressing", instruction: "Wrap a bandage over the dressing to hold it in place.", icon: "wrap_icon"),
+        ],
+        dos: ["Use clean cloths", "Apply direct pressure", "Keep the person calm", "Monitor for shock"],
+        donts: ["Don’t remove embedded objects", "Don’t use a tourniquet unless trained", "Don’t use dirty materials"],
+      ),
+
+      Procedure(
+        id: "fracture_sprain",
+        title: "Fractures and Sprains",
+        category: "fractures_sprains",
+        urgencyLevel: "moderate",
+        estimatedTime: "15-30 minutes",
+        seekHelp: "Seek medical attention for suspected fractures or severe swelling/deformity",
+        overview: "Initial care for suspected broken bones or ligament injuries.",
+        steps: [
+          ProcedureStep(stepNumber: 1, heading: "Immobilize the area", instruction: "Do not move the affected limb. Use a splint or padding to support it.", icon: "immobilize_icon"),
+          ProcedureStep(stepNumber: 2, heading: "Apply cold", instruction: "Use an ice pack wrapped in a cloth for 15-20 minutes to reduce swelling.", icon: "ice_icon"),
+          ProcedureStep(stepNumber: 3, heading: "Elevate if possible", instruction: "Raise the limb above heart level to help reduce swelling.", icon: "elevate_icon"),
+          ProcedureStep(stepNumber: 4, heading: "Seek evaluation", instruction: "Avoid using the limb until seen by a healthcare provider.", icon: "doctor_icon"),
+        ],
+        dos: ["Keep the limb still", "Use ice to reduce swelling", "Seek X-ray if unsure"],
+        donts: ["Don’t move or realign bones", "Don’t apply heat", "Don’t ignore deformities"],
+      ),
+
+      Procedure(
+        id: "bites_stings",
+        title: "Bites and Stings",
+        category: "bites_stings",
+        urgencyLevel: "moderate",
+        estimatedTime: "10-15 minutes",
+        seekHelp: "Seek medical help for signs of allergic reaction or if bitten by a venomous animal",
+        overview: "Managing common insect stings, animal bites, or venomous bites.",
+        steps: [
+          ProcedureStep(stepNumber: 1, heading: "Move to safety", instruction: "Leave the area to prevent further stings or bites.", icon: "safety_icon"),
+          ProcedureStep(stepNumber: 2, heading: "Clean the area", instruction: "Wash with soap and water to prevent infection.", icon: "clean_icon"),
+          ProcedureStep(stepNumber: 3, heading: "Apply cold pack", instruction: "Reduce swelling and pain using a wrapped ice pack.", icon: "ice_icon"),
+          ProcedureStep(stepNumber: 4, heading: "Monitor for reaction", instruction: "Watch for swelling of face/lips, trouble breathing, or rash.", icon: "monitor_icon"),
+          ProcedureStep(stepNumber: 5, heading: "Use epinephrine if allergic", instruction: "If prescribed, use an epinephrine auto-injector immediately.", icon: "epi_icon"),
+        ],
+        dos: ["Clean wound", "Apply ice", "Use antihistamines if needed"],
+        donts: ["Don’t suck out venom", "Don’t scratch the area", "Don’t delay epinephrine in allergic reaction"],
+      ),
+
+      Procedure(
+        id: "allergic_reaction",
+        title: "Allergic Reaction",
+        category: "allergic_reactions",
+        urgencyLevel: "critical",
+        estimatedTime: "Immediate",
+        seekHelp: "Call emergency services immediately for anaphylaxis",
+        overview: "Severe allergic reactions can be life-threatening and need urgent care.",
+        steps: [
+          ProcedureStep(stepNumber: 1, heading: "Identify symptoms", instruction: "Look for swelling, hives, difficulty breathing, dizziness.", icon: "symptom_icon"),
+          ProcedureStep(stepNumber: 2, heading: "Use epinephrine", instruction: "Administer epinephrine auto-injector in outer thigh.", icon: "epi_icon"),
+          ProcedureStep(stepNumber: 3, heading: "Call emergency services", instruction: "Always call after using epinephrine.", icon: "call_icon"),
+          ProcedureStep(stepNumber: 4, heading: "Lay person down", instruction: "Lay flat and elevate legs unless breathing difficulty requires sitting up.", icon: "position_icon"),
+          ProcedureStep(stepNumber: 5, heading: "Second dose", instruction: "If no improvement after 5-15 mins, a second epinephrine dose may be needed.", icon: "second_dose_icon"),
+        ],
+        dos: ["Use epinephrine promptly", "Call emergency services", "Stay with the person"],
+        donts: ["Don’t wait to see if symptoms improve", "Don’t give food or drink", "Don’t leave the person alone"],
+      ),
+      
+      Procedure(
+        id: "heatstroke",
+        title: "Heatstroke",
+        category: "heat_cold_injuries",
+        urgencyLevel: "critical",
+        estimatedTime: "Immediate",
+        seekHelp: "Call emergency services immediately",
+        overview: "Heatstroke is a life-threatening condition where the body overheats.",
+        steps: [
+          ProcedureStep(stepNumber: 1, heading: "Move to shade", instruction: "Get the person out of the sun and into a cool area.", icon: "shade_icon"),
+          ProcedureStep(stepNumber: 2, heading: "Cool the person", instruction: "Apply cool water, ice packs to armpits/groin/neck, or fan.", icon: "cool_icon"),
+          ProcedureStep(stepNumber: 3, heading: "Remove excess clothing", instruction: "Take off unnecessary clothes to aid cooling.", icon: "remove_clothing_icon"),
+          ProcedureStep(stepNumber: 4, heading: "Hydrate if conscious", instruction: "Give small sips of water. Avoid caffeine or alcohol.", icon: "water_icon"),
+          ProcedureStep(stepNumber: 5, heading: "Monitor and reassure", instruction: "Stay with the person and monitor breathing.", icon: "monitor_icon"),
+        ],
+        dos: ["Cool the body quickly", "Use fans and water", "Keep person calm"],
+        donts: ["Don’t give fluids if unconscious", "Don’t delay emergency help", "Don’t use ice baths for elderly/children"],
+      ),
+
+
     ];
 
     notifyListeners();
