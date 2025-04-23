@@ -27,23 +27,6 @@ Lexi is a beginner-friendly English learning application built with Flutter. The
   - Full functionality without internet connection
   - Questions stored locally for instant access
 
-## Screenshots
-
-<table>
-  <tr>
-    <td><img src="screenshots/home_screen.png" width="200"></td>
-    <td><img src="screenshots/mode_info.png" width="200"></td>
-    <td><img src="screenshots/quiz_screen.png" width="200"></td>
-    <td><img src="screenshots/results_screen.png" width="200"></td>
-  </tr>
-  <tr>
-    <td align="center">Home Screen</td>
-    <td align="center">Mode Info</td>
-    <td align="center">Quiz Screen</td>
-    <td align="center">Results Screen</td>
-  </tr>
-</table>
-
 ## Getting Started
 
 ### Prerequisites
