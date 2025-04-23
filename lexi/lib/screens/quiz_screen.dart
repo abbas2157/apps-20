@@ -156,12 +156,18 @@ class _QuizScreenState extends State<QuizScreen> with SingleTickerProviderStateM
     return Scaffold(
       extendBodyBehindAppBar: true,
       appBar: AppBar(
-        title: Text('Lexi - ${_getDifficultyName()} Mode'),
+        title: Text('Lexi - ${_getDifficultyName()} Mode',
+        style: const TextStyle(
+            color: Colors.white,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
         backgroundColor: Colors.transparent,
         elevation: 0,
         leading: IconButton(
-          icon: const Icon(Icons.arrow_back_ios),
+          icon: const Icon(Icons.arrow_back_ios,color: Colors.white,),
           onPressed: () => Navigator.of(context).pop(),
+          
         ),
       ),
       body: Container(
