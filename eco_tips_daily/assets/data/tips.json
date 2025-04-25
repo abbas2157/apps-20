@@ -1,0 +1,186 @@
+{
+  "categories": [
+    {
+      "id": "home",
+      "name": "Home",
+      "icon": "home"
+    },
+    {
+      "id": "office",
+      "name": "Office",
+      "icon": "business"
+    },
+    {
+      "id": "travel",
+      "name": "Travel",
+      "icon": "directions_car"
+    },
+    {
+      "id": "food",
+      "name": "Food",
+      "icon": "restaurant"
+    },
+    {
+      "id": "garden",
+      "name": "Garden",
+      "icon": "yard"
+    },
+    {
+      "id": "energy",
+      "name": "Energy",
+      "icon": "bolt"
+    },
+    {
+      "id": "water",
+      "name": "Water",
+      "icon": "water_drop"
+    },
+    {
+      "id": "waste",
+      "name": "Waste",
+      "icon": "delete"
+    }
+  ],
+  "tips": [
+    {
+      "id": "tip1",
+      "title": "Unplug Unused Electronics",
+      "content": "Even when turned off, many electronics use power in standby mode. Unplug chargers, appliances, and devices when not in use to save energy and reduce your carbon footprint. This 'phantom energy' can account for up to 10% of home electricity use. Consider using power strips with switches to make it easier to truly turn off multiple devices at once.",
+      "categoryId": "home",
+      "imageUrl": "assets/images/unplug.png"
+    },
+    {
+      "id": "tip2",
+      "title": "Use Natural Light",
+      "content": "Open curtains and blinds during daylight hours instead of turning on lights. Natural light not only saves electricity but also improves mood and productivity. Position desks and reading areas near windows to take maximum advantage of daylight. Use light-colored, reflective paint on walls to help bounce natural light deeper into rooms.",
+      "categoryId": "home",
+      "imageUrl": "assets/images/natural_light.png"
+    },
+    {
+      "id": "tip3",
+      "title": "Digital Documents",
+      "content": "Reduce paper waste by keeping documents digital whenever possible. Use cloud storage solutions and digital signatures to minimize printing needs. When you absolutely need to print, use both sides of the paper and opt for recycled paper. Consider apps that help you scan and organize paper documents to transition to a more paperless workflow.",
+      "categoryId": "office",
+      "imageUrl": "assets/images/digital_docs.png"
+    },
+    {
+      "id": "tip4",
+      "title": "Reusable Water Bottle",
+      "content": "Bring a reusable water bottle to work instead of using disposable cups or plastic bottles. This simple habit can significantly reduce plastic waste. A single person using a reusable water bottle can save an average of 156 plastic bottles annually. Choose stainless steel or glass bottles to avoid potential chemical leaching from some plastics.",
+      "categoryId": "office",
+      "imageUrl": "assets/images/water_bottle.png"
+    },
+    {
+      "id": "tip5",
+      "title": "Carpool or Use Public Transport",
+      "content": "Sharing rides or using public transportation reduces carbon emissions and traffic congestion. Consider organizing a carpool with colleagues who live nearby. If you carpool with just one other person, you can cut your commuting carbon footprint in half. Many cities also offer incentives for using public transportation, like tax benefits or discounted passes through employers.",
+      "categoryId": "travel",
+      "imageUrl": "assets/images/carpool.png"
+    },
+    {
+      "id": "tip6",
+      "title": "Choose Local Produce",
+      "content": "Buy locally grown fruits and vegetables to reduce the carbon footprint associated with transportation. Local produce is often fresher and supports your community's economy. Food in the U.S. travels an average of 1,500 miles from farm to plate. Shopping at farmers' markets or joining a CSA (Community Supported Agriculture) program can help you access seasonal local produce regularly.",
+      "categoryId": "food",
+      "imageUrl": "assets/images/local_produce.png"
+    },
+    {
+      "id": "tip7",
+      "title": "Reduce Food Waste",
+      "content": "Plan meals, store food properly, and use leftovers creatively to minimize food waste. Compost inedible food scraps to return nutrients to the soil. About one-third of all food produced globally goes to waste. Creating a weekly meal plan and shopping with a specific list can help reduce impulse purchases that often end up being wasted. Learn proper storage techniques for different foods to extend their life.",
+      "categoryId": "food",
+      "imageUrl": "assets/images/food_waste.png"
+    },
+    {
+      "id": "tip8",
+      "title": "Bike for Short Trips",
+      "content": "For short distances, consider cycling instead of driving. It's eco-friendly, helps you stay fit, and often faster in congested areas. Nearly 40% of all car trips in the U.S. are under two miles, a distance easily covered by bicycle in about 10 minutes. Adding a basket or panniers to your bike makes it practical for grocery shopping and errands. Many cities are expanding bike lanes and bike-sharing programs to make cycling more accessible.",
+      "categoryId": "travel",
+      "imageUrl": "assets/images/cycling.png"
+    },
+    {
+      "id": "tip9",
+      "title": "Smart Thermostat",
+      "content": "Install a programmable or smart thermostat to automatically adjust your home's temperature. You can set it to reduce heating or cooling when you're away or sleeping. This simple change can save up to 10% on heating and cooling costs annually. Many utility companies offer rebates for installing smart thermostats, making them even more cost-effective.",
+      "categoryId": "energy",
+      "imageUrl": "assets/images/smart_thermostat.png"
+    },
+    {
+      "id": "tip10",
+      "title": "LED Light Bulbs",
+      "content": "Replace incandescent bulbs with energy-efficient LED alternatives. LEDs use up to 75% less energy and last 25 times longer than traditional bulbs. While they cost more initially, each LED bulb can save about $55 in electricity costs over its lifetime. LEDs also generate less heat, reducing the burden on your air conditioning system during summer months.",
+      "categoryId": "energy",
+      "imageUrl": "assets/images/led_bulbs.png"
+    },
+    {
+      "id": "tip11",
+      "title": "Low-Flow Fixtures",
+      "content": "Install low-flow showerheads and faucet aerators to reduce water usage without sacrificing performance. These simple devices can cut your water consumption by 30-50%. A typical family can save 2,700 gallons of water annually by installing low-flow fixtures. This not only conserves water but also reduces energy needed to heat water for showers and washing.",
+      "categoryId": "water",
+      "imageUrl": "assets/images/low_flow.png"
+    },
+    {
+      "id": "tip12",
+      "title": "Rain Barrel Collection",
+      "content": "Collect rainwater in barrels to use for watering plants and gardens. This reduces demand on municipal water supplies and lowers your water bill. A 55-gallon rain barrel can fill up during just a quarter-inch of rainfall on an average-sized roof. The collected water is free of chlorine and other chemicals, making it ideal for plants.",
+      "categoryId": "garden",
+      "imageUrl": "assets/images/rain_barrel.png"
+    },
+    {
+      "id": "tip13",
+      "title": "Native Plant Landscaping",
+      "content": "Choose native plants for your garden that are adapted to local conditions. They require less water, fertilizer, and maintenance than non-native species. Native plants also provide essential habitat for local wildlife including pollinators like bees and butterflies. A native plant garden can use 80% less water than conventional landscaping after plants are established.",
+      "categoryId": "garden",
+      "imageUrl": "assets/images/native_plants.png"
+    },
+    {
+      "id": "tip14",
+      "title": "Composting Kitchen Scraps",
+      "content": "Start a compost bin for fruit and vegetable scraps, coffee grounds, and yard waste. Composting diverts waste from landfills and creates rich soil amendment for your garden. About 30% of household waste can be composted rather than sent to landfills. As organic waste decomposes in landfills, it produces methane, a potent greenhouse gas. Composting prevents these emissions while creating a valuable resource.",
+      "categoryId": "waste",
+      "imageUrl": "assets/images/composting.png"
+    },
+    {
+      "id": "tip15",
+      "title": "Repair Instead of Replace",
+      "content": "When items break, try repairing them before replacing. Many communities have repair cafes where volunteers help fix broken items for free. This reduces waste and often saves money. Electronic waste is the fastest-growing waste stream in the world, with most discarded devices ending up in landfills. Learning basic repair skills or finding local repair resources helps extend the life of your possessions.",
+      "categoryId": "waste",
+      "imageUrl": "assets/images/repair.png"
+    },
+    {
+      "id": "tip16",
+      "title": "Reusable Shopping Bags",
+      "content": "Keep reusable shopping bags in your car or near your door so you'll have them handy for shopping trips. A single reusable bag can eliminate hundreds of single-use plastic bags over its lifetime. Plastic bags can take 500+ years to break down in landfills, and many end up in oceans where they harm marine life. Some cities offer incentives for bringing your own bags, such as small discounts on your purchase.",
+      "categoryId": "waste",
+      "imageUrl": "assets/images/reusable_bags.png"
+    },
+    {
+      "id": "tip17",
+      "title": "Cold Water Laundry",
+      "content": "Wash clothes in cold water whenever possible. About 90% of the energy used by washing machines goes to heating water. Modern detergents work effectively in cold water, and your clothes will last longer too. Washing four out of five loads in cold water could save up to $60 annually on energy bills and prevent roughly 500 pounds of carbon dioxide from entering the atmosphere.",
+      "categoryId": "home",
+      "imageUrl": "assets/images/cold_wash.png"
+    },
+    {
+      "id": "tip18",
+      "title": "Air-Dry Dishes and Clothes",
+      "content": "Skip the drying cycle on your dishwasher and let dishes air-dry. Similarly, hang clothes to dry rather than using a dryer when weather permits. A typical dryer uses about 769 kWh per year, costing around $100 in electricity. Air-drying clothes also reduces wear and extends the life of your garments. Consider installing a clothesline or using a folding drying rack that can be stored when not in use.",
+      "categoryId": "energy",
+      "imageUrl": "assets/images/air_dry.png"
+    },
+    {
+      "id": "tip19",
+      "title": "Bring Lunch in Reusable Containers",
+      "content": "Pack your lunch in reusable containers instead of disposable bags or plastic wrap. Include reusable utensils rather than single-use plastic ones. The average person using disposable lunch packaging generates about 67 pounds of waste per year. Investing in quality reusable containers not only reduces waste but keeps food fresher and prevents leaks in your bag.",
+      "categoryId": "office",
+      "imageUrl": "assets/images/lunch_container.png"
+    },
+    {
+      "id": "tip20",
+      "title": "Fix Water Leaks Promptly",
+      "content": "Check regularly for and fix water leaks in faucets, toilets, and pipes. Even a slow drip can waste gallons of water over time. A faucet dripping once per second wastes more than 3,000 gallons of water per year. To check for toilet leaks, place a few drops of food coloring in the tank; if color appears in the bowl without flushing, you have a leak that needs fixing.",
+      "categoryId": "water",
+      "imageUrl": "assets/images/fix_leaks.png"
+    }
+  ]
+}
