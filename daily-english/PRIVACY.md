@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to Lexi ("we," "our," or "us"). We respect your privacy and are committed to protecting your personal data. This privacy policy will inform you about how we handle your personal information when you use our English learning application ("App") and tell you about your privacy rights.
+Welcome to Daily English. We respect your privacy and are committed to protecting your personal data. This privacy policy will inform you about how we handle your personal information when you use our English learning application and tell you about your privacy rights.
 
 ## Information We Collect
 
